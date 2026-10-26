@@ -1,35 +1,37 @@
-# Privacy Policy for UEK Schedule App
+# Privacy Policy for Plansy
 
-**Effective Date:** 15.02.2026
+**Effective Date:** 26.10.2026
 
 ## 1. Overview
-UEK Schedule ("the App") is designed to provide users with access to university schedules of the University of Economics in Cracow in a simple and efficient manner. This is not an official application of the University of Economics in Cracow (UEK). The App is independently developed to provide convenient access to publicly available schedule data.
+Plansy is an independent mobile application designed to provide students and educators with fast and convenient access to academic timetables across supported universities.
 
-## 2. Authentication and Credentials 
-The App requires users to sign in using their official university credentials provided by UEK. The App acts as a secure bridge to the official university website. It uses the credentials you provide solely to authenticate with the university's systems and fetch your schedule data.
+Plansy is not an official application of any supported university. The App is developed independently to provide access to publicly available schedule data.
 
-Your credentials are saved locally on your device using Keychain services. These credentials are encrypted and are not accessible to the App creator or any third party. The App developer does not collect, transmit to private servers, or store your password in a readable format. Logging out of the App immediately purges your credentials from the device Keychain.
+## 2. Authentication and Credentials
+For universities that require authorization to access schedules, the App allows users to authenticate using their official university credentials. The App acts solely as a secure bridge to the university's official portal and uses provided credentials exclusively to fetch your schedule.
 
-While the App utilizes industry-standard secure storage, the developer cannot be held responsible for unauthorized access to credentials resulting from device compromise, user negligence, or security breaches beyond the developer's control.
+Your credentials are stored exclusively on your local device using Apple's Keychain services. Credentials are encrypted and cannot be accessed by the App developer or any third parties. Passwords are never transmitted to external servers or logged in plain text. Signing out or removing the group permanently deletes credentials from Keychain.
 
-## 3. Data Sources and Security
-The App sources schedule data directly from the official [University of Economics in Cracow website](https://planzajec.uek.krakow.pl).
+## 3. Data Sources and Backend Services
+The App fetches schedule information directly from official university portals and schedule feeds.
 
-The App also uses Firebase services for accessing and displaying this schedule data. While Firebase does not process personal data in this app, its privacy practices apply. Firebase adheres to strict security standards, and you can review its privacy policy at [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
+The App utilizes Google Firebase services for app configuration and data caching. Firebase does not process personal user data in this app. You can review Firebase's security standards at [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
+
+The App displays advertisements via Google AdMob. In accordance with GDPR and Apple requirements, users can manage their ad consent and privacy choices at any time via App Settings.
 
 ## 4. Third-Party Links
-The App may include links to third-party websites or services. These third-party services are governed by their own privacy policies. We are not responsible for their privacy practices or content. Please review their privacy policies before using their services.
+The App may contain links to university platforms (e.g., Moodle, Microsoft Teams). These external services operate under their own privacy policies.
 
 ## 5. Notifications
-The App can send notifications to remind users about upcoming classes. Notifications are only enabled if you choose to allow them in your device settings. Users have the right to control their notification preferences and may revoke permissions for notifications via their device settings at any time.
+The App can send local notifications prior to classes. Notifications are enabled only with your explicit permission and can be toggled off at any time in device settings or within the App.
 
 ## 6. Changes to This Policy
-We may update this Privacy Policy to reflect changes in the App or legal requirements. Any changes will be posted here with an updated effective date.
+We reserve the right to update this Privacy Policy. Any changes will become effective upon posting with a revised effective date.
 
 ## 7. Contact
-If you have any questions about this Privacy Policy, please contact us at: [sebastianstaszczyk.1999@gmail.com](mailto:sebastianstaszczyk.1999@gmail.com)
+If you have any questions regarding this Privacy Policy, please contact us at: [plansy.contact@gmail.com](mailto:plansy.contact@gmail.com)
 
 ---
-This Privacy Policy is also available in Polish. You can access the Polish version [here](https://github.com/SebastianStasz/uek-schedule-privacy-policy/blob/main/polish.md).
+This Privacy Policy is also available in Polish: [polish.md](polish.md).
 
-By using UEK Schedule, you agree to this Privacy Policy.
+By using Plansy, you agree to this Privacy Policy.
