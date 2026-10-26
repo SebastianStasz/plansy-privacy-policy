@@ -1,35 +1,37 @@
-# Polityka Prywatności dla Aplikacji UEK Schedule
+# Polityka Prywatności dla Plansy
 
-**Data wejścia w życie:** 15.02.2026
+**Data wejścia w życie:** 26.10.2026
 
 ## 1. Wprowadzenie
-UEK Schedule ("Aplikacja") została zaprojektowana, aby umożliwiać użytkownikom prosty i wygodny dostęp do planów zajęć Uniwersytetu Ekonomicznego w Krakowie. Nie jest to oficjalna aplikacja Uniwersytetu Ekonomicznego w Krakowie (UEK). Aplikacja została opracowana niezależnie, aby zapewnić łatwy dostęp do publicznie dostępnych danych o planach zajęć.
+Plansy to niezależna aplikacja zaprojektowana w celu zapewnienia studentom i wykładowcom prostego i wygodnego dostępu do planów zajęć obsługiwanych uczelni wyższych.
+
+Aplikacja nie jest oficjalnym produktem żadnej z uczelni. Została opracowana niezależnie, aby ułatwić przeglądanie publicznie dostępnych danych o planach zajęć.
 
 ## 2. Logowanie i bezpieczeństwo poświadczeń
-Aplikacja wymaga zalogowania się przy użyciu oficjalnych danych dostępowych wydanych przez UEK. Aplikacja pełni rolę bezpiecznego łącznika z oficjalnym serwisem uczelni. Wykorzystuje Twoje dane wyłącznie w celu uwierzytelnienia i pobrania aktualnego planu zajęć.
+Dla uczelni, które wymagają uwierzytelnienia do pobrania planu, Aplikacja umożliwia logowanie przy użyciu oficjalnych danych dostępowych wydanych przez daną uczelnię. Aplikacja pełni rolę bezpiecznego łącznika z oficjalnym systemem uczelnianym i wykorzystuje podane poświadczenia wyłącznie w celu uwierzytelnienia i pobrania planu zajęć.
 
-Twoje dane logowania są zapisywane lokalnie na Twoim urządzeniu z wykorzystaniem systemowej usługi Keychain. Dane te są zaszyfrowane i niedostępne dla twórcy aplikacji ani osób trzecich. Hasło nie jest przesyłane na żadne zewnętrzne serwery ani przechowywane w formie jawnej. Wylogowanie w aplikacji skutkuje natychmiastowym i trwałym usunięciem danych logowania z pamięci urządzenia (Keychain).
+Twoje dane logowania są zapisywane wyłącznie lokalnie na Twoim urządzeniu z wykorzystaniem bezpiecznego magazynu systemowego (Apple Keychain). Dane te są zaszyfrowane i niedostępne dla twórcy aplikacji ani żadnych osób trzecich. Hasła nie są przesyłane na żadne zewnętrzne serwery ani przechowywane w formie jawnej. Wylogowanie w aplikacji lub usunięcie grupy trwale usuwa dane logowania z Keychain.
 
-Mimo stosowania standardowych zabezpieczeń systemowych, twórca aplikacji nie ponosi odpowiedzialności za nieautoryzowany dostęp do danych wynikający z zainfekowania urządzenia, jego utraty, złamania zabezpieczeń systemu lub innych zaniedbań niezależnych od autora aplikacji.
+## 3. Źródła danych i usługi backendowe
+Aplikacja pobiera dane o planach zajęć bezpośrednio z oficjalnych stron internetowych i systemów planistycznych obsługiwanych uczelni.
 
-## 3. Źródła danych i bezpieczeństwo
-Aplikacja pobiera dane o planach zajęć bezpośrednio z oficjalnej [strony internetowej Uniwersytetu Ekonomicznego w Krakowie](https://planzajec.uek.krakow.pl).
+Aplikacja korzysta z usług Firebase (Google) w celu synchronizacji konfiguracji i buforowania planów. Firebase nie przetwarza danych osobowych użytkowników Aplikacji. Więcej informacji o standardach bezpieczeństwa Firebase można znaleźć pod adresem [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
 
-Aplikacja korzysta również z usług Firebase w celu dostępu do tych danych i ich wyświetlania. Chociaż Firebase nie przetwarza danych osobowych w tej aplikacji, obowiązują jego zasady ochrony prywatności. Firebase stosuje rygorystyczne standardy bezpieczeństwa, a jego politykę prywatności można przeczytać pod adresem [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
+Aplikacja wyświetla reklamy Google AdMob. Zgodnie z wymogami prawnymi (RODO / UMP), użytkownicy mogą w każdej chwili zarządzać swoimi preferencjami dotyczącymi prywatności i personalizacji reklam w Ustawieniach Aplikacji.
 
 ## 4. Linki do stron trzecich
-Aplikacja może zawierać linki do stron internetowych lub usług podmiotów trzecich. Te usługi podlegają własnym politykom prywatności. Nie ponosimy odpowiedzialności za ich praktyki dotyczące ochrony prywatności ani za ich treści. Przed skorzystaniem z tych usług prosimy o zapoznanie się z ich politykami prywatności.
+Aplikacja może zawierać linki do zewnętrznych systemów uczelnianych (np. Moodle, MS Teams). Usługi te podlegają własnym politykom prywatności, za które twórca Aplikacji nie ponosi odpowiedzialności.
 
 ## 5. Powiadomienia
-Aplikacja może wysyłać powiadomienia przypominające o nadchodzących zajęciach. Powiadomienia są włączane wyłącznie, jeśli użytkownik wyrazi na nie zgodę w ustawieniach urządzenia. Użytkownicy mają prawo zarządzać swoimi preferencjami dotyczącymi powiadomień oraz mogą cofnąć udzielone zgody w ustawieniach urządzenia w dowolnym momencie.
+Aplikacja może wysyłać powiadomienia przypominające o nadchodzących zajęciach. Wymaga to wyrażenia zgody w ustawieniach systemu. W każdej chwili możesz wyłączyć powiadomienia w ustawieniach urządzenia lub wewnątrz aplikacji.
 
-## 6. Zmiany w niniejszej polityce
-Możemy zaktualizować niniejszą Politykę Prywatności, aby odzwierciedlić zmiany w Aplikacji lub wymagania prawne. Wszelkie zmiany zostaną opublikowane tutaj z nową datą wejścia w życie.
+## 6. Zmiany w polityce prywatności
+Zastrzegamy sobie prawo do aktualizacji niniejszej Polityki Prywatności. Wszelkie zmiany wchodzą w życie z dniem ich opublikowania z nową datą wejścia w życie.
 
 ## 7. Kontakt
-W przypadku pytań dotyczących niniejszej Polityki Prywatności prosimy o kontakt pod adresem: [sebastianstaszczyk.1999@gmail.com](mailto:sebastianstaszczyk.1999@gmail.com)
+W przypadku pytań dotyczących niniejszej Polityki Prywatności prosimy o kontakt pod adresem: [plansy.contact@gmail.com](mailto:plansy.contact@gmail.com)
 
 ---
-Niniejsza Polityka Prywatności jest również dostępna w języku angielskim. Wersję angielską można znaleźć [tutaj](https://github.com/SebastianStasz/uek-schedule-privacy-policy/blob/main/english.md).
+Niniejsza Polityka Prywatności jest również dostępna w języku angielskim: [english.md](english.md).
 
-Korzystając z aplikacji UEK Schedule, akceptujesz niniejszą Politykę Prywatności.
+Korzystając z aplikacji Plansy, akceptujesz niniejszą Politykę Prywatności.
